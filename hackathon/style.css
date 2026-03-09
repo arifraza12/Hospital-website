@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: gray;
+}
+
+
+header{
+    background:red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+nav{
+    background: gray;
+    text-align: center;
+}
+nav a{
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+nav a:hover{
+    background:black;
+}
+
+
+.hero{
+    background:whitesmoke;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.services{
+    text-align: center;
+    padding: 40px;
+}
+.services .box{
+    background:black;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+
+.about{
+    background: whitesmoke;
+    padding: 40px;
+    text-align: center;
+}
+
+
+.contact{
+    padding: 40px;
+    text-align: center;
+}
+
+
+footer{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.arif a:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    border-radius: 10px;
+    color: aqua;
+}
+
+.services .box:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    border-radius: 10px;
+    color: aqua;
+    background-color: green;
+
+
+}
